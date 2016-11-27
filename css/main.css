@@ -5,6 +5,7 @@ body,html{
 	width: 100% !important;
 	top:0 !important;
 	overflow-x: hidden !important;
+	min-width: 320px;
 }
 .section_1{
 	background-image: url(http://res.cloudinary.com/shubhi/image/upload/v1480270389/background_e4c1fy.jpg);
@@ -100,6 +101,18 @@ body,html{
 	text-decoration: none !important;
 	padding: 4px; 
 }
+.dropdown_content_left{
+	left:0 ;
+ 	text-align: left ;
+ 	vertical-align: top ;
+  	position: relative ;
+    width: 45% ;
+}
+.dropdown_content_right{
+	vertical-align: top ;
+	right: 0 !important; 
+	width: 45% !important;
+}	
 .divider{
 	background: #ddd; 
 	width:1.5px; 
@@ -126,12 +139,16 @@ body,html{
 div.desc {
     text-align: center;
 }
+
+.quote{
+	width:100% !important;
+}
+
 .quote_symbol{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 35px;
-	color:#b3b2b2;
-	font-family: 'Proza Libre', sans-serif;
+	color:#b3b2b2 !important;
+	font-size:35px !important; 
+	width:5% !important;
+	height:100% !important;
 }
 .section_3{
 	text-align: center;
@@ -174,10 +191,10 @@ div.desc {
 	text-decoration: underline;
 	display: inline-block;
 }
-.display-inline{
+.display_inline{
 	display:inline-block;
 }
-.v-align{
+.v_align{
 	vertical-align: super;
 }
 .center_align{
